@@ -1,0 +1,75 @@
+ .banner{
+   display: flex;
+ height: 600px;
+ background-image: url(../images/banner/banner1.png);
+ background-size: cover;
+ background-origin: padding-box;
+ text-align: right;
+ justify-content: right;
+ align-items: center;
+   } 
+.cont{  
+   color: #e91818;
+   background-color:  purple;
+  }     
+  .sub-banner, .blogs{
+    display: flex;  
+    text-align: right; 
+    justify-content:  right;
+   align-items: center; 
+   margin : top 100px ;
+   
+   }
+  .list{
+   display:flex;
+   text-align: right;
+    margin :0px 300px; 
+    list-style: circle;
+   
+    }
+
+   .header{
+      text-align: center;
+   }
+   .sub-list,ul{
+      display: flex;
+      list-style: none;
+      text-align : center;
+     
+   }
+
+   .sub-list li{ 
+      margin-left:  150px;
+
+   }
+  .sub-cont{
+      margin-left:100px ;
+      color: aliceblue;
+      background-color: rgb(105, 4, 4);
+}       
+   .tex-primary{
+        margin-left: 100px;
+     }
+     .item{
+     
+      background-color: black;
+      background-position: 0px 0px;
+      color: aliceblue;
+      text-align: left;
+      margin-left: 40px;
+      align-items: center;
+     }
+     
+     .item li{
+      margin-left: 30px;
+     }
+     .sub-button{
+      background-color: beige;
+      color: blue;
+     }
+     .sub-item{
+      justify-content: right;
+      align-items: center;
+      text-align: right;
+     }
+     
